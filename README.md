@@ -1,1 +1,8 @@
-c
+Prueba Técnica – Jaime Núñez – El Juego de la Ruleta
+
+Este repositorio contiene la resolución de la Prueba Técnica – El Juego de la Ruleta.
+La solución está organizada en dos proyectos principales:
+
+RouletteBetting - Backend
+
+RouletteBettingUI - Frontend
