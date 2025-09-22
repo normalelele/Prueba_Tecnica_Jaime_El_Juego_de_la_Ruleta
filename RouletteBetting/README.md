@@ -1,5 +1,3 @@
-# RouletteBetting# 🎲 RouletteBetting
-
 Aplicación web desarrollada en **ASP.NET Core MVC con .NET 8**, que implementa el juego de ruleta y sus apuestas.  
 Incluye una API para gestionar apuestas, resultados y flujo del juego, además de vistas para la interacción del usuario.
 
