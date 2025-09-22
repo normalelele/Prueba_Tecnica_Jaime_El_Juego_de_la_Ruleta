@@ -22,6 +22,6 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
 
 1. **Clonar el repositorio**
    ```bash
-   git clone <https://github.com/normalelele/RouletteBetting.git>
+   git clone https://github.com/normalelele/Prueba_Tecnica_Jaime_El_Juego_de_la_Ruleta.git
    cd RouletteBetting
    ```
