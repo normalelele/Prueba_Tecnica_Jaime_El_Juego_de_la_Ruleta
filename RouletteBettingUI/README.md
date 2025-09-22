@@ -1,5 +1,5 @@
 Este proyecto es una implementación de una **ruleta de apuestas** como parte de la prueba técnica de frontend.  
-El objetivo fue demostrar habilidades en **Vue 3 + TypeScript**, manejo de **estado de la UI**, integración con **API REST**
+El objetivo fue demostrar habilidades en **Vue 3 + TypeScript**, manejo de **estado de la UI** y integración con **API REST**
 
 ## Tecnologías utilizadas
 
