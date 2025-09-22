@@ -25,7 +25,7 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
    cd RouletteBetting
    ```
    
-2. **Restaurar dependencias y**
+2. **Restaurar dependencias y ejecutar**
    ```bash
    dotnet restore
    dotnet run
