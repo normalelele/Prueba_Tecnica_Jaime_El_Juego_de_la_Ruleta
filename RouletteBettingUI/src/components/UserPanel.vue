@@ -162,6 +162,7 @@ const showMessage = (msg: string, type: 'success' | 'error' | 'info') => {
 };
 
 defineExpose({ showMessage });
+
 </script>
 
 <style scoped>
