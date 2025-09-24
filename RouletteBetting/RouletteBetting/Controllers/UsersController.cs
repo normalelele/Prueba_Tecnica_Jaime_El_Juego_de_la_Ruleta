@@ -51,7 +51,7 @@ namespace RouletteBetting.Controllers
             }
             else
             {
-                user.Balance += request.Amount;
+                user.Balance = request.Amount;
             }
 
             await _db.SaveChangesAsync();

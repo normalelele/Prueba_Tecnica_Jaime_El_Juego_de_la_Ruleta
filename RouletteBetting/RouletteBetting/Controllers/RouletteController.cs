@@ -10,7 +10,7 @@ namespace RouletteBetting.Controllers
         private static readonly Random _random = new();
 
         [HttpGet("spin")]
-        public ActionResult<SpinResultDto> Spin()
+        public async Task<SpinResultDto> Spin()
         {
             var number = _random.Next(0, 37);
 
@@ -19,7 +19,9 @@ namespace RouletteBetting.Controllers
 
             var dto = new SpinResultDto(number, color, parity);
 
-            return Ok(dto);
+            await Task.Delay(2500);
+
+            return dto;
         }
 
         [HttpPost("prize")]
@@ -38,7 +40,7 @@ namespace RouletteBetting.Controllers
             switch (request.Type?.ToLowerInvariant())
             {
                 case "color":
-                    if (!string.IsNullOrEmpty(request.Color) && request.Color.ToLowerInvariant() == resultColor)
+                    if (!string.IsNullOrEmpty(request.ColorSelect) && request.ColorSelect.ToLowerInvariant() == resultColor)
                     {
                         won = true;
                         prize = bet * 0.5m;

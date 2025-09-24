@@ -9,5 +9,6 @@
         public decimal BetAmount { get; set; }
         public int? ResultNumber { get; set; }
         public string ResultColor { get; set; } = null!;
+        public string? ColorSelect { get; set; }
     }
 }
