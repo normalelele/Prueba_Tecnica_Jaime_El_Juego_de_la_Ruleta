@@ -100,7 +100,7 @@ const emit = defineEmits<{
 }>();
 
 const betAmount = ref(10);
-const specificNumber = ref(7);
+const specificNumber = ref(1);
 
 const maxBet = computed(() => props.userBalance);
 

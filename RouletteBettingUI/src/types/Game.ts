@@ -47,6 +47,7 @@ export interface ApiBetRequest {
   betAmount: number;
   resultNumber?: number;
   resultColor?: string;
+  colorSelect?:string;
 }
 
 export interface ApiBetResult {

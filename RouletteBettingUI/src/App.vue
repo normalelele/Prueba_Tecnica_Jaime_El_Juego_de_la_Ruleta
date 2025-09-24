@@ -130,7 +130,8 @@ const spinRoulette = async () => {
       number: gameState.currentBet.type === 'number-color' ? (gameState.currentBet.numberValue as number) : undefined,
       betAmount: gameState.currentBet.amount,
       resultNumber: result.number,
-      resultColor: result.color
+      resultColor: result.color,
+      colorSelect: gameState.currentBet.type  === 'color' ? (gameState.currentBet.value as string) : undefined,
     });
 
     const winnings = prizeResponse.prize ?? 0;

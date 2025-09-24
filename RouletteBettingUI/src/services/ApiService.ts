@@ -2,7 +2,7 @@ import axios, { AxiosInstance } from 'axios';
 import { ApiBetRequest } from '../types/Game';
 
 // const BASE_URL = 'https://localhost:7183/api';
-const BASE_URL = 'https://localhost:7027/api';
+const BASE_URL = 'http://194.163.187.96:809/api';
 
 class ApiService {
 

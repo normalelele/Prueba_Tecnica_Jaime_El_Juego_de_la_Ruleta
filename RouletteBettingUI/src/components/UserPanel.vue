@@ -67,7 +67,7 @@
 
 import { ref } from 'vue';
 import type { User } from '../types/Game';
-import ApiService from '../services/ApiService';
+
 
 interface Props {
   currentUser: User | null;
@@ -162,7 +162,7 @@ const showMessage = (msg: string, type: 'success' | 'error' | 'info') => {
 };
 
 defineExpose({ showMessage });
-
+import ApiService from '../services/ApiService';
 </script>
 
 <style scoped>
