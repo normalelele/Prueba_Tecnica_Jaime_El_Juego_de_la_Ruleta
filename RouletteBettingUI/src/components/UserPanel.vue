@@ -65,6 +65,7 @@
 
 <script setup lang="ts">
 
+import ApiService from '../services/ApiService';
 import { ref } from 'vue';
 import type { User } from '../types/Game';
 
@@ -162,7 +163,6 @@ const showMessage = (msg: string, type: 'success' | 'error' | 'info') => {
 };
 
 defineExpose({ showMessage });
-import ApiService from '../services/ApiService';
 </script>
 
 <style scoped>
